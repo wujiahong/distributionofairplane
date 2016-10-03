@@ -4,6 +4,10 @@ public class AirlineCompany {
 
 	private String name;
 
+	public AirlineCompany(String name){
+		this.name = name;
+	}
+	
 	public String getName() {
 		return name;
 	}
